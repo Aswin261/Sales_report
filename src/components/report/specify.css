@@ -1,0 +1,11 @@
+table{
+    width:100%;
+    padding-left: 100px;
+    margin-left: 100px;
+}
+tr:nth-child(even) {
+    background-color:rgb(139, 239, 235);
+  }
+th,td{
+    border:solid;
+}

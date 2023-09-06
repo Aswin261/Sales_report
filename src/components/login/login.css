@@ -1,0 +1,47 @@
+.log{
+    margin-top: 90px;
+    margin-left:500px;
+    }
+    .form{
+        height:250px;
+        width:300px;
+        border:1px solid #dbdbdb;
+        border-radius: 50px;
+        text-align:center;
+        background-color: white;
+    }
+    form{
+        margin-top:25px;
+    }
+    .mod {
+        overflow:auto;
+        width: 300px;
+        height:300px;
+        margin-left:500px;
+        margin-top:100px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 10px;
+        background-color: white;
+        align-items: center;
+    }
+    form input{
+        width:258px;
+        height:36px;
+        margin:5px;
+        border:1px solid #dbdbdb;
+        background-color: #fafafa;
+        padding-left:10px;
+        border-radius: 5px;
+    }
+    form button{
+        /* width:270px; */
+        margin:10px;
+        height:36px;
+        border-radius:5px;
+        border: 1px solid #0395f6;
+        font-weight: bold;
+        background-color:#0395f6;
+        color:whitesmoke;
+        margin-top:10px;
+    }

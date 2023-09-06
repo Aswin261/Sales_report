@@ -1,0 +1,42 @@
+form{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+select,input[type="text"]{
+    width:258px;
+    height:36px;
+    margin:5px;
+    border:1px solid #dbdbdb;
+    /* background-color: #fafafa; */
+    padding-left:10px;
+    border-radius: 5px;
+}
+.gender{
+    display: flex;
+    flex-direction: row;
+    width:258px;
+    height:36px;
+    margin:5px;
+    border:1px solid #dbdbdb;
+    background-color: white;
+    padding-left:10px;
+    border-radius: 5px;
+    align-items: center;
+}
+.container{
+    height:250px;
+    width:350px;
+    border:2px solid #b53ded;
+    border-radius: 50px;
+    text-align:center;
+    background: linear-gradient(to right, #7f00ff, #e100ff);
+    margin-top: 30px;
+}
+button{
+    /* background: linear-gradient(to top, #e0d6e8, #d3a6ff);
+    border-radius:5px;
+    border:#8b09e1;
+    margin:5px; */
+}

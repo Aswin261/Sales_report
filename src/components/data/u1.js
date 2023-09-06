@@ -1,0 +1,23 @@
+export const u1 = [
+  { name: "John", date: "3/24/2023", Apple: "0", Realme: "0", Oneplus: "1" },
+  { name: "John", date: "3/25/2023", Apple: "1", Realme: "0", Oneplus: "100" },
+  { name: "John", date: "3/26/2023", Apple: "5", Realme: "0", Oneplus: "2" },
+  { name: "John", date: "3/27/2023", Apple: "4", Realme: "6", Oneplus: "5" },
+  { name: "John", date: "3/28/2023", Apple: "7", Realme: "2", Oneplus: "1" },
+  { name: "John", date: "3/29/2023", Apple: "5", Realme: "2", Oneplus: "3" },
+  { name: "John", date: "3/30/2023", Apple: "8", Realme: "49", Oneplus: "1" },
+  { name: "John", date: "3/31/2023", Apple: "6", Realme: "3", Oneplus: "6" },
+  { name: "John", date: "4/01/2023", Apple: "9", Realme: "8", Oneplus: "7" },
+  { name: "John", date: "4/02/2023", Apple: "215", Realme: "0", Oneplus: "56" },
+  {
+    name: "John",
+    date: "4/3/2023",
+    Apple: "12",
+    Realme: "45",
+    Oneplus: "49",
+  },
+  { name: "John", date: "4/4/2023", Apple: "9", Realme: "132", Oneplus: "25" },
+  { name: "John", date: "4/05/2023", Apple: "6", Realme: "3", Oneplus: "12" },
+  { name: "John", date: "4/06/2023", Apple: "6", Realme: "5", Oneplus: "19" },
+  { name: "John", date: "4/07/2023", Apple: "8", Realme: "7", Oneplus: "2" },
+];

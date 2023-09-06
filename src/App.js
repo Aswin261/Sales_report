@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Login from "./components/login/login";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./components/home";
+import Chart from "./components/chart";
+import Survey from "./tshirt/survey";
+import { Bar } from "react-chartjs-2";
+import BarChart from "./components/report/barc";
+import { Barcharts } from "./tshirt/chart";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Survey />
+      <Barcharts /> */}
+      <Router>
+        <Routes>
+          <Route path="/" element={<Login />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/com" element={<Chart />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
